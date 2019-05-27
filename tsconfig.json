@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "declaration": true,
     "outDir": "./dist",
@@ -10,13 +10,14 @@
         "es5",
         "es6",
         "es2015",
-        "es2015.promise"
+        "es2015.promise",
+        "es2017"
     ]
-  },
-  "include": [
-    "src/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+},
+    "include": [
+        "src/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
