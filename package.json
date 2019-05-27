@@ -1,0 +1,19 @@
+{
+  "name": "lambda-proxy-server",
+  "version": "0.0.1",
+  "description": "Standalone, minimalistic server and listener for simulating API Gateway Lambda Proxy integration.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stawecki/lambda-proxy-server.git"
+  },
+  "author": "Mateusz Stawecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stawecki/lambda-proxy-server/issues"
+  },
+  "homepage": "https://github.com/stawecki/lambda-proxy-server#readme"
+}
