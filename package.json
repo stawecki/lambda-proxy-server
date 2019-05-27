@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stawecki/lambda-proxy-server/issues"
   },
-  "homepage": "https://github.com/stawecki/lambda-proxy-server#readme"
+  "homepage": "https://github.com/stawecki/lambda-proxy-server#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.2"
+  }
 }
