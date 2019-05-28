@@ -1,6 +1,6 @@
 {
   "name": "lambda-proxy-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standalone, minimalistic server and listener for simulating API Gateway Lambda Proxy integration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,16 @@
   "bugs": {
     "url": "https://github.com/stawecki/lambda-proxy-server/issues"
   },
+  "keywords": [
+    "serverless",
+    "nodejs",
+    "AWS Lambda",
+    "API Gateway",
+    "lambda",
+    "proxy",
+    "server",
+    "http"
+  ],
   "homepage": "https://github.com/stawecki/lambda-proxy-server#readme",
   "devDependencies": {
     "@types/node": "^12.0.2",
