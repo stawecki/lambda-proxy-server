@@ -50,7 +50,7 @@ export function createListener(options: any) {
                         }
 
                         if (headers && !headers["content-length"] && body) {
-                            headers["content-length"] = Buffer.from(body.length).length;
+                            headers["content-length"] = Buffer.from(body).length;
                         }
 
                         response.writeHead(statusCode, headers);
